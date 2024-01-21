@@ -32,7 +32,12 @@ Program Overview
 -   The `monteCarloPiSimulation` function encapsulates the core logic of the Monte Carlo simulation.\
 -   The `visualisePoints` function abstracts the details of creating a scatter plot for easy visualization.
 
-### 3\. Customization
+### 3\. Plotting with Gonum/Plot
+
+  -  Golang's plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.\
+  -  The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.\
+
+### 4\. Customization
 
 -   The program provides configuration options within the `main` function, allowing users to experiment with different simulation parameters.\
 -   Users can easily adjust the number of random points and observe the impact on the accuracy of the π estimation.
