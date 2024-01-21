@@ -1,7 +1,7 @@
-Monte Carlo Pi Simulator\
+Monte Carlo Pi Simulator
 ========================
 
-Overview\
+Overview
 --------
 
 This Golang program is a command-line interface (CLI) application that performs a Monte Carlo simulation to estimate the value of π. The simulation generates random points within a square and determines how many fall within a quarter circle inscribed in the square. By using the ratio of points within the circle to the total number of points, the program approximates the value of π.
@@ -16,7 +16,7 @@ The program provides both the estimated value of π and a visual representation 
 
 The application is designed as a CLI tool, allowing users to run simulations and visualise results in a terminal environment.
 
-Program Overview\
+Program Overview
 ----------------
 
 ### 1\. Golang Concurrency
@@ -37,7 +37,7 @@ Program Overview\
 -   The program provides configuration options within the `main` function, allowing users to experiment with different simulation parameters.\
 -   Users can easily adjust the number of random points and observe the impact on the accuracy of the π estimation.
 
-Monte Carlo Pi Simulation\
+Monte Carlo Pi Simulation
 -------------------------
 
 The Monte Carlo simulation follows these steps:
@@ -46,7 +46,7 @@ The Monte Carlo simulation follows these steps:
 2\.  Determine which points fall inside the unit circle by checking if they satisfy the equation x2+y2≤1x2+y2≤1.\
 3\.  Use the ratio of points inside the circle to the total points to estimate the value of π.
 
-Usage\
+Usage
 -----
 
 To run the Monte Carlo Pi Simulator, execute the following command:
@@ -57,7 +57,7 @@ bash
 
 The simulation will print the estimated value of π based on the specified number of random points.
 
-Installation\
+Installation
 ------------
 
 Make sure you have Go installed on your machine. You can install the necessary dependencies by running:
@@ -66,12 +66,12 @@ bash
 
 `go get -u gonum.org/v1/plot/...`
 
-Configuration\
+Configuration
 -------------
 
 You can configure the simulation by adjusting parameters in the `main` function, such as the number of random points (`numPoints`). Experiment with different values to observe how the accuracy of the estimation improves with more points.
 
-Results\
+Results
 -------
 
 The simulation will output the estimated value of π based on the generated random points. You can analyse how the estimation converges to the actual value as the number of points increases.
@@ -84,7 +84,7 @@ Saving Visualization to: montecarlo_scatter_plot.png\
 Visualization saved as montecarlo_scatter_plot.png\
 ```
 
-Visualisation\
+Visualisation
 -------------
 
 **Example Image**
@@ -93,25 +93,25 @@ Visualisation\
 
 The scatter plot visualizes the generated random points, with points inside the unit circle shown in a distinct color. The visualisation is saved as `montecarlo_scatter_plot.png` in the project directory.
 
-Further Information\
+Further Information
 ------------
 
  Need more information on the theory behind the Monte Carlo Pi simulation? Here is a visual representation I made, along with more information explained in plain English, where you can get a better understanding of the concept through interaction.\
- Check it out [Monte Carlo Pi Simulation](https://monte-carlo-simulator-demo.netlify.app/)\
+ Check it out: [Monte Carlo Pi Simulation](https://monte-carlo-simulator-demo.netlify.app/)\
  <br>\
- [Git Repo](https://github.com/amy324/Visual-Monte-Carlo-Simulator.git)
+ Or click here for the [Git Repo](https://github.com/amy324/Visual-Monte-Carlo-Simulator.git)
 
-About the Author\
+About the Author
 ----------------
 
 The author of this Monte Carlo Pi Simulator holds a master's degree in statistics, bringing a strong background of advanced statistical theory to her programming work. She has a passion for all things math related and the goal of this project is to showcase how statistical techniques and a solid understanding of mathematical theory can be leveraged in programming to solve interesting problems, even in small-scale applications such as this. This is a simplified version of a Monte Carlo simulation for ease of understanding.
 
-Contributing\
+Contributing
 ------------
 
 Feel free to contribute to the project by opening issues, providing feedback, or submitting pull requests. Your input is valuable!
 
-License\
+License
 -------
 
 This project is licensed under the MIT License.
