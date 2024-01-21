@@ -88,7 +88,7 @@ The scatter plot visualizes the generated random points, with points inside the 
 Further Information
 ------------
 
- Need more information on the theory behind the Monte Carlo Pi simulation? Here is a visual representation I made, along with more information explained in plain English, where you can get a better understanding of the concept through interaction.\
+ Need more information on the theory behind the Monte Carlo Pi simulation? Here is a visual representation I made, along with more information explained in plain English, where you can get a better understanding of the concept through interaction in your web browser.\
  <br/>\
  Check it out: [Monte Carlo Pi Simulation](https://monte-carlo-simulator-demo.netlify.app/)\
  <br>\
