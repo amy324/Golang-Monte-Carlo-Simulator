@@ -21,25 +21,25 @@ Program Overview
 
 ### 1\. Golang Concurrency
 
-- The Monte Carlo simulation utilises Golang's concurrency features to efficiently generate and process a large number of random points concurrently.\
--  Goroutines are employed to handle the parallel generation of random points, improving the overall performance of the simulation.\
--   Utilises Golang's random number generation and math libraries for a robust Monte Carlo simulation.\
+- The Monte Carlo simulation utilises Golang's concurrency features to efficiently generate and process a large number of random points concurrently.
+-  Goroutines are employed to handle the parallel generation of random points, improving the overall performance of the simulation.
+-   Utilises Golang's random number generation and math libraries for a robust Monte Carlo simulation.
 -   Leverages Golang's plotting library (gonum/plot) for data visualization.
 
 ### 2\. Modular Structure
 
--   Organized in a modular structure to enhance code readability and maintainability.\
--   The `monteCarloPiSimulation` function encapsulates the core logic of the Monte Carlo simulation.\
+-   Organized in a modular structure to enhance code readability and maintainability.
+-   The `monteCarloPiSimulation` function encapsulates the core logic of the Monte Carlo simulation.
 -   The `visualisePoints` function abstracts the details of creating a scatter plot for easy visualization.
 
 ### 3\. Plotting with Gonum/Plot
 
-  -  Golang's plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.\
-  -  The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.\
+  -  Golang's plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.
+  -  The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.
 
 ### 4\. Customization
 
--   The program provides configuration options within the `main` function, allowing users to experiment with different simulation parameters.\
+-   The program provides configuration options within the `main` function, allowing users to experiment with different simulation parameters.
 -   Users can easily adjust the number of random points and observe the impact on the accuracy of the π estimation.
 
 
