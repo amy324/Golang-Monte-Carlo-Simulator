@@ -8,9 +8,9 @@ This Golang program is a command-line interface (CLI) application that performs 
 
 The main steps of the Monte Carlo Pi Simulation are:
 
-1\. **Generate random points**: Randomly select points within a square.
-2\. **Determine inclusion**: Check whether each point falls within a quarter circle.
-3\. **Estimate π**: Use the ratio of points within the quarter circle to the total number of points to approximate the value of π.
+1. **Generate random points**: Generates a specified number of random points within a unit square.
+2. **Determine inclusion**: Determine which points fall inside the unit circle by checking if they satisfy the equation x2+y2≤1x2+y2≤1.
+3. **Estimate π**: Use the ratio of points within the quarter circle to the total number of points to approximate the value of π.
 
 The program provides both the estimated value of π and a visual representation of the generated points in a scatter plot. The scatter plot is saved as an image file for further analysis or visualization.
 
@@ -37,14 +37,6 @@ Program Overview
 -   The program provides configuration options within the `main` function, allowing users to experiment with different simulation parameters.\
 -   Users can easily adjust the number of random points and observe the impact on the accuracy of the π estimation.
 
-Monte Carlo Pi Simulation
--------------------------
-
-The Monte Carlo simulation follows these steps:
-
-1\.  Generate a specified number of random points within a unit square.
-2\.  Determine which points fall inside the unit circle by checking if they satisfy the equation x2+y2≤1x2+y2≤1.
-3\.  Use the ratio of points inside the circle to the total points to estimate the value of π.
 
 Usage
 -----
