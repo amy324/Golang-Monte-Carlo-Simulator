@@ -14,7 +14,7 @@ The main steps of the Monte Carlo Pi Simulation are:
 
 The program provides both the estimated value of π and a visual representation of the generated points in a scatter plot. The scatter plot is saved as an image file for further analysis or visualization.
 
-The application is designed as a CLI tool, allowing users to run simulations and visualize results in a terminal environment.
+The application is designed as a CLI tool, allowing users to run simulations and visualise results in a terminal environment.
 
 
 Program Overview
