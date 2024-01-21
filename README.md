@@ -71,9 +71,9 @@ The simulation will output the estimated value of π based on the generated rand
 **Example Output:**
 
 ```\
-Estimated value of π using 1000 points: 3.132000\
-Saving Visualization to: montecarlo_scatter_plot.png\
-Visualization saved as montecarlo_scatter_plot.png\
+Estimated value of π using 1000 points: 3.132000
+Saving Visualization to: montecarlo_scatter_plot.png
+Visualization saved as montecarlo_scatter_plot.png
 ```
 
 Visualisation
