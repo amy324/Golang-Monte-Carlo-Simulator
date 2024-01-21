@@ -24,7 +24,7 @@ Program Overview
 * The Monte Carlo simulation utilises Golang's concurrency features to efficiently generate and process a large number of random points concurrently.
 * Goroutines are employed to handle the parallel generation of random points, improving the overall performance of the simulation.
 * Utilises Golang's random number generation and math libraries for a robust Monte Carlo simulation.
-* Leverages Golang's plotting library (gonum/plot) for data visualization.
+* Leverages Golang's plotting library (gonum/plot) for data visualisation.
 
 ### 2\. Modular Structure
 
@@ -34,8 +34,8 @@ Program Overview
 
 ### 3\. Plotting with Gonum/Plot
 
-* Golang's  plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.
-* The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.
+* Golang's  plotting library, Gonum/Plot, is utilised to create a visual representation of the generated points.
+* The `visualisePoints` function uses Gonum/Plot's Scatter plot to visualise the random points, aiding in the analysis of the Monte Carlo simulation results. This Scatter plot is saved as a png image to the local project directory. 
 
 ### 4\. Customization
 
