@@ -34,8 +34,8 @@ Program Overview
 
 ### 3\. Plotting with Gonum/Plot
 
-  -  Golang's plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.
-  -  The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.
+-   Golang's  plotting library, Gonum/Plot, is utilized to create a visual representation of the generated points.
+ -   The visualisePoints function uses Gonum/Plot's Scatter plot to visualsze the random points, aiding in the analysis of the Monte Carlo simulation results.
 
 ### 4\. Customization
 
