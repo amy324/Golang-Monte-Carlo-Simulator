@@ -107,7 +107,7 @@ Further Information
 About the Author
 ----------------
 
-The author of this Monte Carlo Pi Simulator holds a master's degree in statistics, bringing a strong background of advanced statistical theory to her programming work. she has a passion for all things math related and the goal of this project is to showcase how statistical techniques and a solid understanding of mathmatical theory can be leveraged in programming to solve interesting problems, even in small-scale applcations such as this. This is a simplified version of a Monte Carlo simulation for ease of understanding.
+The author of this Monte Carlo Pi Simulator holds a master's degree in statistics, bringing a strong background of advanced statistical theory to her programming work. She has a passion for all things math related and the goal of this project is to showcase how statistical techniques and a solid understanding of mathmatical theory can be leveraged in programming to solve interesting problems, even in small-scale applcations such as this. This is a simplified version of a Monte Carlo simulation for ease of understanding.
 
 
 Contributing
